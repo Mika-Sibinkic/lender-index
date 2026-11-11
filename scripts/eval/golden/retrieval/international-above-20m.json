@@ -1,0 +1,8 @@
+{
+  "name": "International lender above $20M (typical query)",
+  "query": "International lender above 20 mil",
+  "min_results": 1,
+  "must_not_include_ids": [],
+  "expected_lender_ids": [],
+  "note": "Regression guard: a lender stated Domestic-only must NEVER appear for an 'international' ask. The intl-dimension hard-exclude (intl_domestic='Domestic' → contradict) enforces it; the zero-contradiction check catches any leak."
+}

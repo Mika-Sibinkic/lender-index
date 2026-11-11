@@ -1,0 +1,8 @@
+{
+  "name": "Argentina equipment (off-list foreign country)",
+  "query": "finance construction equipment for a borrower in Argentina",
+  "min_results": 1,
+  "must_not_include_ids": [],
+  "expected_lender_ids": [],
+  "note": "Foreign-geography regression guard. Argentina was OFF the old geography dictionary, so geographic_scope came back empty and the geo/intl hard-exclude never engaged → a US/domestic-only lender wrongly surfaced for a foreign deal. The comprehensive countries.ts now recognises it and engages international intent; the zero-contradiction check asserts NO Domestic-only lender appears. Fill must_not_include_ids with the specific US-only lender IDs from your roster."
+}

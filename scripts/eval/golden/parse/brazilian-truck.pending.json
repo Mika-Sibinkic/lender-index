@@ -1,0 +1,22 @@
+{
+  "name": "Brazilian truck leasing sheet (Portuguese XLSX)",
+  "pending": true,
+  "doc_text": "",
+  "expected_fields": {
+    "asset_classes": [
+      "commercial_trucks"
+    ],
+    "geographic_scope": [
+      "Brazil"
+    ],
+    "deal_size_min_usd": 1500000,
+    "intl_domestic": "International"
+  },
+  "critical_fields": [
+    "asset_classes",
+    "geographic_scope",
+    "deal_size_min_usd"
+  ],
+  "numeric_tolerance": 0.01,
+  "note": "Placeholder for a non-English lender sheet (e.g. a lease model stating a USD amount of 1,500,000.00, a 60-month term, a local tax context that names the country, and a native-language asset word such as 'caminhão' → commercial_trucks). XLSX file-type support ships (spreadsheet-text.ts → /api/parse/file). Paste the extracted text into doc_text, set expected_fields to the sheet's true values, and flip pending:false. A stated USD figure needs no FX guess. Large sheets on a slow local model can exceed a tunnel's ~100s edge cap and fall back to regex; keep the parse path under ~90s before relying on this case."
+}

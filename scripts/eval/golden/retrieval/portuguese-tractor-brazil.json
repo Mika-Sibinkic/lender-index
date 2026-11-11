@@ -1,0 +1,18 @@
+{
+  "name": "Portuguese — tractor in Brazil",
+  "query": "financiamento de trator de US$ 3 milhões para operador no Brasil",
+  "min_results": 1,
+  "expect_extraction": {
+    "asset_classes": [
+      "agricultural_equipment"
+    ],
+    "geographic_scope": [
+      "Brazil"
+    ],
+    "intl_required": true,
+    "deal_size_min_usd": 3000000
+  },
+  "must_not_include_ids": [],
+  "expected_lender_ids": [],
+  "note": "Multilingual robustness (Portuguese). US-only lenders must not appear for a Brazil deal; lenders that only fund a different specific asset class must not appear for a tractor. Until 2026-09-08 this case asserted NOTHING: both id lists were empty and min_results only warned, so the only live check was 'zero contradiction verdicts' — which an all-empty parse satisfies for free, because every dimension in structured-filter.ts returns 'unknown' when the deal criterion is empty. expect_extraction pins the understanding first; the geo/asset/intl hard-excludes are only real once the sentence is actually read."
+}

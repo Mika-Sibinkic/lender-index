@@ -1,0 +1,8 @@
+{
+  "name": "Canada deal must surface the Canadian-capable lenders (recall)",
+  "query": "equipment financing in Canada",
+  "min_results": 3,
+  "must_not_include_ids": [],
+  "expected_lender_ids": [],
+  "note": "Recall guard. This once returned a handful of results and none of the lenders whose geography names Canada, while far more passed the fit filter. Two causes: intl_domestic=Domestic hard-excluded a lender despite its geography naming Canada, and vector top-K gated which lenders were considered at all. Guards both. Fill expected_lender_ids with the Canada-capable lenders in your roster and raise min_results to match."
+}

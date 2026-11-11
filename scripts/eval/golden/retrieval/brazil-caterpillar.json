@@ -1,0 +1,8 @@
+{
+  "name": "Brazil Caterpillar 320 ~$8M",
+  "query": "finance a Caterpillar 320 around $8M for a borrower in Brazil",
+  "min_results": 1,
+  "must_not_include_ids": [],
+  "expected_lender_ids": [],
+  "note": "Firing-level guarantee: NO US-only / UK-only lender may appear (geo hard-exclude). The rule-based zero-contradiction check enforces this without ground truth. Fill must_not_include_ids with the specific US-only lender IDs from your roster, and expected_lender_ids with the Brazil-capable funders."
+}

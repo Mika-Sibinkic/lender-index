@@ -1,0 +1,67 @@
+# CI — Lender Index
+#
+# Merge gate. Runs `pnpm typecheck` + the Vitest unit suite on every pull
+# request to main and on every push. Green here = safe to merge.
+#
+# Why typecheck is separate from build: `tsc --noEmit` needs NO env at all, so a
+# type error cannot merge and surface only later at deploy time. It also covers
+# test files and scripts, which `next build` never typechecks.
+#
+# Out of scope here:
+#   - `pnpm build`  is NOT run here. `next build` reaches code paths that need
+#     Supabase + Clerk env (and an AI backend), which are not GitHub Actions
+#     secrets by default; running it would fail red for the wrong reason.
+#   - `pnpm eval`   (golden-set accuracy eval) likewise needs Supabase + a live
+#     LLM backend.
+#   Once those values exist as repository secrets, a separate `build` job (and
+#   an `eval` job) gated on them can be added.
+#
+# No lint step: `pnpm lint` is deliberately not a gate (see eslint.config.mjs).
+
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+
+jobs:
+  test:
+    name: Typecheck + unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # pnpm must exist before setup-node so its cache resolver can find the store.
+      - name: Enable corepack
+        run: corepack enable
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          # Pin to the version used locally — a floating `11` pulled 11.8.0, which
+          # turns the "ignored build scripts" warning into a hard error (exit 1).
+          version: 11.1.1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      # Prefer the frozen lockfile (reproducible installs). Fall back to a
+      # non-frozen install only if the lockfile has drifted, so a lockfile nit
+      # never turns the gate red on its own. --ignore-scripts: dependency build
+      # scripts (sharp/esbuild/tesseract/…) aren't needed to run vitest, and
+      # pnpm 11.8+ errors on unapproved ones — skip them explicitly.
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile --ignore-scripts || pnpm install --no-frozen-lockfile --ignore-scripts
+
+      # Runs before the tests: a type error is cheaper to read than a cascade of
+      # failing assertions caused by one.
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Run tests
+        run: pnpm test

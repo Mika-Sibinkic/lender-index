@@ -1,0 +1,24 @@
+{
+  "name": "Synthetic domestic non-bank equipment tear sheet",
+  "synthetic": true,
+  "doc_text": "First Meridian Equipment Finance — Term Sheet. We are a US-based non-bank lender focused on construction equipment and medical equipment. Minimum deal size $2,000,000; maximum $25,000,000. We lend nationwide, United States only. Equipment must be no older than 15 years. Owner-operated and leased-out assets. Contact: Dana Reyes, SVP Originations, dana.reyes@firstmeridian.example, +1 555 0142.",
+  "expected_fields": {
+    "company_name": "First Meridian Equipment Finance",
+    "lender_type": "Non Bank",
+    "intl_domestic": "Domestic",
+    "asset_classes": [
+      "construction_equipment",
+      "medical_equipment"
+    ],
+    "deal_size_min_usd": 2000000,
+    "deal_size_max_usd": 25000000,
+    "primary_contact_email": "dana.reyes@firstmeridian.example"
+  },
+  "critical_fields": [
+    "company_name",
+    "asset_classes",
+    "deal_size_min_usd",
+    "deal_size_max_usd"
+  ],
+  "note": "Fully synthetic (no real lender) — its expected values are derivable from its own text, so it tests extractor mechanics without fabricating claims about a real funder. Real ground-truth docs from your own roster go in sibling files."
+}

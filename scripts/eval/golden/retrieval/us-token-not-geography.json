@@ -1,0 +1,17 @@
+{
+  "name": "'US$' in a Portuguese sentence is a currency, not the United States",
+  "query": "financiamento de caminhao de US 3 milhoes no Brasil",
+  "min_results": 1,
+  "expect_extraction": {
+    "geographic_scope": [
+      "Brazil"
+    ],
+    "not_geographic_scope": [
+      "United States"
+    ],
+    "intl_required": true
+  },
+  "must_not_include_ids": [],
+  "expected_lender_ids": [],
+  "note": "Incident (fixed 2026-09-08): the bare ' us ' token in 'US 3 milhoes no Brasil' matched the United States geography. That is worse than a missed filter — it made a Brazilian deal look domestic, disarmed intl_required (so Domestic-only lenders stopped being excluded) and put US-only funders at the top of a Brazil shortlist while the Brazilian ones were pushed down. Asserts the geography is Brazil, is NOT the United States, and that the international requirement is armed. Guards src/lib/search/extract-deal.ts ('United States' patterns) alongside src/lib/search/query-robustness.test.ts."
+}

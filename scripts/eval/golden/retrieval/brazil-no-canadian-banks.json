@@ -1,0 +1,8 @@
+{
+  "name": "Brazil must not return Canadian banks",
+  "query": "Caterpillar 320 financing in Brazil",
+  "min_results": 1,
+  "must_not_include_ids": [],
+  "expected_lender_ids": [],
+  "note": "Requirement: a lender whose stated geography names Canada (and not Brazil) must not appear for a Brazil deal. Cause: 'international' sat in GLOBAL_TOKENS so any lender mentioning it matched every geography. Fill must_not_include_ids with lenders in your roster whose geography states Canada, not Brazil."
+}

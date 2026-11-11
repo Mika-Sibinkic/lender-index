@@ -1,0 +1,8 @@
+{
+  "name": "Japan medical equipment (off-list foreign country)",
+  "query": "GE Healthcare MRI financing for a clinic in Japan",
+  "min_results": 1,
+  "must_not_include_ids": [],
+  "expected_lender_ids": [],
+  "note": "Foreign-geography regression guard. Japan was OFF the old geography dictionary. countries.ts now recognises it (name + 'Japanese' demonym) and engages international intent so a Domestic-only lender is hard-excluded. The zero-contradiction check enforces it without ground truth."
+}

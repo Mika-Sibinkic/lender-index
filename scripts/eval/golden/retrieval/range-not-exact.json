@@ -1,0 +1,12 @@
+{
+  "name": "A stated range is a range, not a point",
+  "query": "equipment financing $8M-$10M in Texas",
+  "min_results": 1,
+  "expect_extraction": {
+    "deal_size_min_usd": 8000000,
+    "deal_size_max_usd": 10000000
+  },
+  "must_not_include_ids": [],
+  "expected_lender_ids": [],
+  "note": "Incident (fixed 2026-09-08): '$8M-$10M' collapsed to a single point instead of a min/max band, so the size dimension judged every lender against one number. A lender whose window opens at $9M contradicts a point at $8M but serves an $8-10M deal — the shortlist dropped valid funders for a range a user actually typed. Both ends must survive the parse."
+}
