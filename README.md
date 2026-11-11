@@ -262,4 +262,4 @@ sees them:
 AI calls made through `src/lib/llm/client.ts` and local document extraction are written to
 `cost_log`; the legacy NIM path is not.
 
-See `NOTICE.md` for licensing status.
+MIT. See [LICENSE](LICENSE).
