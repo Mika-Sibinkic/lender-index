@@ -1,0 +1,8 @@
+{
+  "name": "Texas must not return state-restricted lenders from other states",
+  "query": "Texas Caterpillar 320 financing",
+  "min_results": 1,
+  "must_not_include_ids": [],
+  "expected_lender_ids": [],
+  "note": "Requirement: a state-restricted lender whose state list omits Texas must not appear for a Texas deal; a lender whose state list includes Texas must stay. Guards the hasToken word-boundary fix and the state-list constraint. Fill must_not_include_ids and expected_lender_ids from your own roster."
+}

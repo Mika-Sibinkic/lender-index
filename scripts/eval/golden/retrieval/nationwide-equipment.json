@@ -1,0 +1,8 @@
+{
+  "name": "Nationwide equipment $30M",
+  "query": "large equipment package around $30 million, borrower anywhere in the US",
+  "min_results": 1,
+  "must_not_include_ids": [],
+  "expected_lender_ids": [],
+  "note": "Broad US deal — many lenders should qualify, but none whose stated max size is below $30M (size hard-exclude). Zero-contradiction check enforces it."
+}

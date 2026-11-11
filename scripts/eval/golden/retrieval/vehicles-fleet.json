@@ -1,0 +1,8 @@
+{
+  "name": "Vehicles — $4M fleet",
+  "query": "financing for a $4 million vehicle fleet",
+  "min_results": 1,
+  "must_not_include_ids": [],
+  "expected_lender_ids": [],
+  "note": "A vehicle query must surface vehicle-capable lenders (asset_classes contains 'vehicles' or one of its children) and exclude lenders that only fund other asset families. Zero-contradiction check enforces it."
+}

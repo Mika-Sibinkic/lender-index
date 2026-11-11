@@ -1,0 +1,8 @@
+{
+  "name": "Nigeria agricultural equipment (off-list foreign country)",
+  "query": "agricultural equipment financing for a farm borrower in Nigeria",
+  "min_results": 1,
+  "must_not_include_ids": [],
+  "expected_lender_ids": [],
+  "note": "Foreign-geography regression guard. Nigeria was OFF the old geography dictionary. countries.ts now recognises it and engages international intent; a US/domestic-only lender must NOT surface for this foreign deal. Zero-contradiction check enforces it."
+}

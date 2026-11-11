@@ -1,0 +1,8 @@
+{
+  "name": "Medical equipment $5M, leased out (typical query)",
+  "query": "medical equipment, 5 million USD, leased out",
+  "min_results": 1,
+  "must_not_include_ids": [],
+  "expected_lender_ids": [],
+  "note": "Typical query shape. Returned lenders must serve medical equipment, allow $5M, and not be size-excluded. Usage is rank-only, so it never removes a lender. Zero-contradiction check enforces it."
+}

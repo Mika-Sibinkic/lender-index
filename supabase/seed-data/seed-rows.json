@@ -1,0 +1,1034 @@
+[
+  {
+    "company_name": "Vega Equipment Finance",
+    "primary_contact_name": "Alex Marlow",
+    "primary_contact_title": "SVP, Equipment Lending",
+    "primary_contact_email": "alex.marlow@vega.example",
+    "primary_contact_phone": "+1 555 0100",
+    "asset_classes": [
+      "equipment",
+      "construction_equipment"
+    ],
+    "asset_subtypes": [
+      "New",
+      "Used"
+    ],
+    "deal_size_min_usd": 250000,
+    "deal_size_max_usd": 15000000,
+    "borrower_revenue_min_usd": 1000000,
+    "borrower_years_in_business_min": 3,
+    "required_documents": [
+      "audited_financials_3yr",
+      "fixed_asset_list"
+    ],
+    "geographic_scope": [
+      "US"
+    ],
+    "industry_filters": [
+      "construction",
+      "manufacturing"
+    ],
+    "lender_type": "Bank",
+    "intl_domestic": "Domestic",
+    "usage_codes": "owner, lease",
+    "operation_category": "Commercial",
+    "vintage_restriction": "15 Years",
+    "rate_notes": "SOFR + 250-400 bps depending on tier",
+    "internal_notes": "[SYNTHETIC SEED] Strong on yellow iron; passes on rental fleets.",
+    "introduced_via": "Industry conference 2025",
+    "introduced_date": "2025-09-12",
+    "status": "active"
+  },
+  {
+    "company_name": "Rigel Commercial Credit",
+    "primary_contact_name": "Jordan Lee",
+    "primary_contact_title": "Director, Specialty Originations",
+    "primary_contact_email": "jordan.lee@rigel.example",
+    "primary_contact_phone": "+1 555 0101",
+    "asset_classes": [
+      "construction_equipment",
+      "commercial_trucks"
+    ],
+    "asset_subtypes": [
+      "Used"
+    ],
+    "deal_size_min_usd": 500000,
+    "deal_size_max_usd": 25000000,
+    "borrower_revenue_min_usd": 2000000,
+    "borrower_years_in_business_min": 2,
+    "required_documents": [
+      "financials_2yr",
+      "fixed_asset_list",
+      "tax_returns_2yr"
+    ],
+    "geographic_scope": [
+      "US"
+    ],
+    "industry_filters": [
+      "construction",
+      "logistics"
+    ],
+    "lender_type": "Non Bank",
+    "intl_domestic": "Domestic",
+    "usage_codes": "owner, rental",
+    "operation_category": "Commercial",
+    "vintage_restriction": "2010 or newer",
+    "rate_notes": "Higher cost of funds; quick close",
+    "internal_notes": "[SYNTHETIC SEED] Fast credit committee; likes repeat sponsors.",
+    "introduced_via": "Referral",
+    "introduced_date": "2025-04-21",
+    "status": "active"
+  },
+  {
+    "company_name": "Alkaid Corporate Asset Finance",
+    "primary_contact_name": "Casey Rivera",
+    "primary_contact_title": "SVP, Corporate Finance",
+    "primary_contact_email": "casey.rivera@alkaid.example",
+    "primary_contact_phone": "+1 555 0102",
+    "asset_classes": [
+      "equipment",
+      "real_estate",
+      "working_capital"
+    ],
+    "asset_subtypes": [
+      "New"
+    ],
+    "deal_size_min_usd": 5000000,
+    "deal_size_max_usd": 75000000,
+    "borrower_revenue_min_usd": 20000000,
+    "borrower_years_in_business_min": 3,
+    "required_documents": [
+      "audited_financials_3yr",
+      "interim_financials_yoy"
+    ],
+    "geographic_scope": [
+      "US",
+      "Canada",
+      "UK"
+    ],
+    "industry_filters": [
+      "manufacturing",
+      "energy"
+    ],
+    "lender_type": "Bank",
+    "intl_domestic": "Both",
+    "usage_codes": "owner",
+    "operation_category": "Commercial",
+    "vintage_restriction": "None",
+    "rate_notes": "Bank-grade pricing; relationship-driven",
+    "internal_notes": "[SYNTHETIC SEED] Prefers borrowers with an existing deposit relationship.",
+    "introduced_via": "Existing relationship",
+    "introduced_date": "2025-03-03",
+    "status": "active"
+  },
+  {
+    "company_name": "Spica Medical Capital",
+    "primary_contact_name": "Taylor Brooks",
+    "primary_contact_title": "VP, Healthcare Finance",
+    "primary_contact_email": "taylor.brooks@spica.example",
+    "primary_contact_phone": "+1 555 0103",
+    "asset_classes": [
+      "medical_equipment",
+      "working_capital"
+    ],
+    "asset_subtypes": [
+      "New",
+      "Refurbished"
+    ],
+    "deal_size_min_usd": 100000,
+    "deal_size_max_usd": 10000000,
+    "borrower_revenue_min_usd": 400000,
+    "borrower_years_in_business_min": 2,
+    "required_documents": [
+      "financials_2yr",
+      "tax_returns_2yr"
+    ],
+    "geographic_scope": [
+      "US"
+    ],
+    "industry_filters": [
+      "healthcare"
+    ],
+    "lender_type": "Non Bank",
+    "intl_domestic": "Domestic",
+    "usage_codes": "owner",
+    "operation_category": "Commercial",
+    "vintage_restriction": "10 Years",
+    "rate_notes": "Specialty pricing; tighter on imaging",
+    "internal_notes": "[SYNTHETIC SEED] Imaging and dental practices; no hospital systems.",
+    "introduced_via": "Cold inbound",
+    "introduced_date": "2025-02-14",
+    "status": "active"
+  },
+  {
+    "company_name": "Polaris Agricultural Lending",
+    "primary_contact_name": "Morgan Ellis",
+    "primary_contact_title": "Head of Ag Finance",
+    "primary_contact_email": "morgan.ellis@polaris.example",
+    "primary_contact_phone": "+1 555 0104",
+    "asset_classes": [
+      "agricultural_equipment",
+      "real_estate"
+    ],
+    "asset_subtypes": [
+      "New",
+      "Used"
+    ],
+    "deal_size_min_usd": 150000,
+    "deal_size_max_usd": 20000000,
+    "borrower_revenue_min_usd": 600000,
+    "borrower_years_in_business_min": 3,
+    "required_documents": [
+      "tax_returns_3yr",
+      "fixed_asset_list"
+    ],
+    "geographic_scope": [
+      "US"
+    ],
+    "industry_filters": [
+      "agriculture"
+    ],
+    "lender_type": "Credit Union",
+    "intl_domestic": "Domestic",
+    "usage_codes": "owner",
+    "operation_category": "Commercial",
+    "vintage_restriction": "20 Years",
+    "rate_notes": "Seasonal payment schedules available",
+    "internal_notes": "[SYNTHETIC SEED] Midwest focus; will look at land plus equipment packages.",
+    "introduced_via": "Referral",
+    "introduced_date": "2024-11-05",
+    "status": "active"
+  },
+  {
+    "company_name": "Altair Fleet Finance",
+    "primary_contact_name": "Riley Chen",
+    "primary_contact_title": "Director, Fleet Lending",
+    "primary_contact_email": "riley.chen@altair.example",
+    "primary_contact_phone": "+1 555 0105",
+    "asset_classes": [
+      "vehicles",
+      "commercial_trucks"
+    ],
+    "asset_subtypes": [
+      "New",
+      "Used"
+    ],
+    "deal_size_min_usd": 100000,
+    "deal_size_max_usd": 30000000,
+    "borrower_revenue_min_usd": 400000,
+    "borrower_years_in_business_min": 2,
+    "required_documents": [
+      "financials_2yr",
+      "insurance_certs"
+    ],
+    "geographic_scope": [
+      "US",
+      "Mexico"
+    ],
+    "industry_filters": [
+      "logistics",
+      "transportation"
+    ],
+    "lender_type": "Non Bank",
+    "intl_domestic": "Both",
+    "usage_codes": "owner, lease, rental",
+    "operation_category": "Personal, Commercial",
+    "vintage_restriction": "2015 or newer",
+    "rate_notes": "Fixed-rate fleet programs",
+    "internal_notes": "[SYNTHETIC SEED] Cross-border trucking OK with US guarantor.",
+    "introduced_via": "LinkedIn",
+    "introduced_date": "2025-06-30",
+    "status": "active"
+  },
+  {
+    "company_name": "Deneb Working Capital Partners",
+    "primary_contact_name": "Jamie Fox",
+    "primary_contact_title": "Managing Director",
+    "primary_contact_email": "jamie.fox@deneb.example",
+    "primary_contact_phone": "+1 555 0106",
+    "asset_classes": [
+      "working_capital"
+    ],
+    "asset_subtypes": [],
+    "deal_size_min_usd": 250000,
+    "deal_size_max_usd": 10000000,
+    "borrower_revenue_min_usd": 1000000,
+    "borrower_years_in_business_min": 2,
+    "required_documents": [
+      "interim_financials",
+      "tax_returns_2yr"
+    ],
+    "geographic_scope": [
+      "US"
+    ],
+    "industry_filters": [
+      "retail",
+      "hospitality",
+      "technology"
+    ],
+    "lender_type": "Private Equity",
+    "intl_domestic": "Domestic",
+    "usage_codes": null,
+    "operation_category": "Commercial",
+    "vintage_restriction": "None",
+    "rate_notes": "Factor-style pricing on receivables",
+    "internal_notes": "[SYNTHETIC SEED] Receivables and inventory lines only; no hard assets.",
+    "introduced_via": "Cold inbound",
+    "introduced_date": "2025-01-17",
+    "status": "active"
+  },
+  {
+    "company_name": "Capella Real Estate Credit",
+    "primary_contact_name": "Drew Patel",
+    "primary_contact_title": "SVP, Commercial Real Estate",
+    "primary_contact_email": "drew.patel@capella.example",
+    "primary_contact_phone": "+1 555 0107",
+    "asset_classes": [
+      "real_estate",
+      "working_capital"
+    ],
+    "asset_subtypes": [],
+    "deal_size_min_usd": 2000000,
+    "deal_size_max_usd": 60000000,
+    "borrower_revenue_min_usd": 8000000,
+    "borrower_years_in_business_min": 3,
+    "required_documents": [
+      "audited_financials_3yr",
+      "tax_returns_3yr"
+    ],
+    "geographic_scope": [
+      "US"
+    ],
+    "industry_filters": [
+      "hospitality",
+      "retail",
+      "manufacturing"
+    ],
+    "lender_type": "Bank",
+    "intl_domestic": "Domestic",
+    "usage_codes": "owner",
+    "operation_category": "Commercial",
+    "vintage_restriction": "None",
+    "rate_notes": "Bank-grade; covenant-heavy",
+    "internal_notes": "[SYNTHETIC SEED] Owner-occupied warehouse and office only.",
+    "introduced_via": "Existing relationship",
+    "introduced_date": "2024-10-02",
+    "status": "active"
+  },
+  {
+    "company_name": "Arcturus Truck Capital",
+    "primary_contact_name": "Dana Ortiz",
+    "primary_contact_title": "VP, Transportation Finance",
+    "primary_contact_email": "dana.ortiz@arcturus.example",
+    "primary_contact_phone": "+1 555 0108",
+    "asset_classes": [
+      "commercial_trucks",
+      "vehicles"
+    ],
+    "asset_subtypes": [
+      "Used"
+    ],
+    "deal_size_min_usd": 75000,
+    "deal_size_max_usd": 12000000,
+    "borrower_revenue_min_usd": 300000,
+    "borrower_years_in_business_min": 2,
+    "required_documents": [
+      "financials_2yr",
+      "insurance_certs"
+    ],
+    "geographic_scope": [
+      "US"
+    ],
+    "industry_filters": [
+      "transportation",
+      "logistics"
+    ],
+    "lender_type": "Non Bank",
+    "intl_domestic": "Domestic",
+    "usage_codes": "owner, lease",
+    "operation_category": "Commercial",
+    "vintage_restriction": "10 Years",
+    "rate_notes": "Competitive on Class 8 tractors",
+    "internal_notes": "[SYNTHETIC SEED] Owner-operators welcome with two years of history.",
+    "introduced_via": "Industry conference 2024",
+    "introduced_date": "2024-09-18",
+    "status": "active"
+  },
+  {
+    "company_name": "Ankaa Medical Leasing",
+    "primary_contact_name": "Avery Kim",
+    "primary_contact_title": "Director, Medical Leasing",
+    "primary_contact_email": "avery.kim@ankaa.example",
+    "primary_contact_phone": "+1 555 0109",
+    "asset_classes": [
+      "medical_equipment",
+      "equipment"
+    ],
+    "asset_subtypes": [
+      "New",
+      "Refurbished"
+    ],
+    "deal_size_min_usd": 50000,
+    "deal_size_max_usd": 8000000,
+    "borrower_revenue_min_usd": 200000,
+    "borrower_years_in_business_min": 2,
+    "required_documents": [
+      "financials_2yr",
+      "fixed_asset_list"
+    ],
+    "geographic_scope": [
+      "US",
+      "Canada"
+    ],
+    "industry_filters": [
+      "healthcare"
+    ],
+    "lender_type": "Non Bank",
+    "intl_domestic": "Both",
+    "usage_codes": "owner, lease",
+    "operation_category": "Commercial",
+    "vintage_restriction": "2012 or newer",
+    "rate_notes": "Lease and loan structures",
+    "internal_notes": "[SYNTHETIC SEED] Will do refurbished imaging with OEM warranty.",
+    "introduced_via": "Referral",
+    "introduced_date": "2025-05-09",
+    "status": "active"
+  },
+  {
+    "company_name": "Mizar Construction Finance",
+    "primary_contact_name": "Quinn Hayes",
+    "primary_contact_title": "SVP, Heavy Equipment",
+    "primary_contact_email": "quinn.hayes@mizar.example",
+    "primary_contact_phone": "+1 555 0110",
+    "asset_classes": [
+      "construction_equipment",
+      "equipment"
+    ],
+    "asset_subtypes": [
+      "New",
+      "Used"
+    ],
+    "deal_size_min_usd": 300000,
+    "deal_size_max_usd": 40000000,
+    "borrower_revenue_min_usd": 1200000,
+    "borrower_years_in_business_min": 3,
+    "required_documents": [
+      "audited_financials_3yr",
+      "fixed_asset_list",
+      "tax_returns_3yr"
+    ],
+    "geographic_scope": [
+      "Mexico",
+      "Brazil",
+      "Chile"
+    ],
+    "industry_filters": [
+      "construction",
+      "energy"
+    ],
+    "lender_type": "Bank",
+    "intl_domestic": "International",
+    "usage_codes": "owner, rental",
+    "operation_category": "Commercial",
+    "vintage_restriction": "15 Years",
+    "rate_notes": "USD and local-currency programs",
+    "internal_notes": "[SYNTHETIC SEED] Latin America only; US deals go to the domestic desk.",
+    "introduced_via": "Industry conference 2025",
+    "introduced_date": "2025-08-22",
+    "status": "active"
+  },
+  {
+    "company_name": "Sabik Equipment Funding",
+    "primary_contact_name": "Parker Wells",
+    "primary_contact_title": "Director, Middle Market",
+    "primary_contact_email": "parker.wells@sabik.example",
+    "primary_contact_phone": "+1 555 0111",
+    "asset_classes": [
+      "equipment",
+      "agricultural_equipment"
+    ],
+    "asset_subtypes": [
+      "Used"
+    ],
+    "deal_size_min_usd": 200000,
+    "deal_size_max_usd": 15000000,
+    "borrower_revenue_min_usd": 800000,
+    "borrower_years_in_business_min": 3,
+    "required_documents": [
+      "financials_3yr",
+      "tax_returns_3yr"
+    ],
+    "geographic_scope": [
+      "US"
+    ],
+    "industry_filters": [
+      "agriculture",
+      "manufacturing"
+    ],
+    "lender_type": "Credit Union",
+    "intl_domestic": "Domestic",
+    "usage_codes": "owner",
+    "operation_category": "Commercial",
+    "vintage_restriction": "20 Years",
+    "rate_notes": "Member pricing; slower close",
+    "internal_notes": "[SYNTHETIC SEED] Membership required before closing.",
+    "introduced_via": "Cold inbound",
+    "introduced_date": "2024-12-11",
+    "status": "active"
+  },
+  {
+    "company_name": "Mintaka Lending",
+    "primary_contact_name": "Rowan Blake",
+    "primary_contact_title": "VP, Originations",
+    "primary_contact_email": "rowan.blake@mintaka.example",
+    "primary_contact_phone": "+1 555 0112",
+    "asset_classes": [
+      "vehicles",
+      "working_capital"
+    ],
+    "asset_subtypes": [
+      "New",
+      "Used"
+    ],
+    "deal_size_min_usd": 50000,
+    "deal_size_max_usd": 5000000,
+    "borrower_revenue_min_usd": 200000,
+    "borrower_years_in_business_min": 2,
+    "required_documents": [
+      "financials_2yr"
+    ],
+    "geographic_scope": [
+      "US"
+    ],
+    "industry_filters": [
+      "retail",
+      "hospitality"
+    ],
+    "lender_type": "Non Bank",
+    "intl_domestic": "Domestic",
+    "usage_codes": "owner, lease",
+    "operation_category": "Personal, Commercial",
+    "vintage_restriction": "2015 or newer",
+    "rate_notes": "Quick close; higher cost of funds",
+    "internal_notes": "[SYNTHETIC SEED] Small-ticket vehicle and working capital deals.",
+    "introduced_via": "LinkedIn",
+    "introduced_date": "2025-07-14",
+    "status": "active"
+  },
+  {
+    "company_name": "Alnilam Healthcare Credit",
+    "primary_contact_name": "Emerson Gray",
+    "primary_contact_title": "Head of Healthcare Lending",
+    "primary_contact_email": "emerson.gray@alnilam.example",
+    "primary_contact_phone": "+1 555 0113",
+    "asset_classes": [
+      "medical_equipment",
+      "real_estate"
+    ],
+    "asset_subtypes": [
+      "New"
+    ],
+    "deal_size_min_usd": 1000000,
+    "deal_size_max_usd": 35000000,
+    "borrower_revenue_min_usd": 4000000,
+    "borrower_years_in_business_min": 3,
+    "required_documents": [
+      "audited_financials_3yr",
+      "interim_financials_yoy"
+    ],
+    "geographic_scope": [
+      "US"
+    ],
+    "industry_filters": [
+      "healthcare"
+    ],
+    "lender_type": "Bank",
+    "intl_domestic": "Domestic",
+    "usage_codes": "owner",
+    "operation_category": "Commercial",
+    "vintage_restriction": "None",
+    "rate_notes": "Bank-grade pricing",
+    "internal_notes": "[SYNTHETIC SEED] Practice acquisitions plus equipment; strong on surgery centers.",
+    "introduced_via": "Existing relationship",
+    "introduced_date": "2024-08-27",
+    "status": "active"
+  },
+  {
+    "company_name": "Bellatrix Ag Capital",
+    "primary_contact_name": "Finley Stone",
+    "primary_contact_title": "Director, Agribusiness",
+    "primary_contact_email": "finley.stone@bellatrix.example",
+    "primary_contact_phone": "+1 555 0114",
+    "asset_classes": [
+      "agricultural_equipment",
+      "working_capital"
+    ],
+    "asset_subtypes": [
+      "New",
+      "Used"
+    ],
+    "deal_size_min_usd": 100000,
+    "deal_size_max_usd": 12000000,
+    "borrower_revenue_min_usd": 400000,
+    "borrower_years_in_business_min": 2,
+    "required_documents": [
+      "financials_3yr",
+      "fixed_asset_list"
+    ],
+    "geographic_scope": [
+      "Brazil",
+      "Argentina",
+      "Canada"
+    ],
+    "industry_filters": [
+      "agriculture"
+    ],
+    "lender_type": "Private Equity",
+    "intl_domestic": "International",
+    "usage_codes": "owner, rental",
+    "operation_category": "Commercial",
+    "vintage_restriction": "2010 or newer",
+    "rate_notes": "Harvest-aligned amortization",
+    "internal_notes": "[SYNTHETIC SEED] International ag only; no US borrowers.",
+    "introduced_via": "Industry conference 2024",
+    "introduced_date": "2024-07-08",
+    "status": "active"
+  },
+  {
+    "company_name": "Castor Commercial Bank",
+    "primary_contact_name": "Hayden Cruz",
+    "primary_contact_title": "SVP, Commercial Banking",
+    "primary_contact_email": "hayden.cruz@castor.example",
+    "primary_contact_phone": "+1 555 0115",
+    "asset_classes": [
+      "equipment",
+      "commercial_trucks",
+      "real_estate"
+    ],
+    "asset_subtypes": [
+      "New",
+      "Used"
+    ],
+    "deal_size_min_usd": 500000,
+    "deal_size_max_usd": 50000000,
+    "borrower_revenue_min_usd": 2000000,
+    "borrower_years_in_business_min": 3,
+    "required_documents": [
+      "audited_financials_3yr",
+      "tax_returns_3yr"
+    ],
+    "geographic_scope": [
+      "US"
+    ],
+    "industry_filters": [
+      "manufacturing",
+      "logistics",
+      "energy"
+    ],
+    "lender_type": "Bank",
+    "intl_domestic": "Domestic",
+    "usage_codes": "owner, lease",
+    "operation_category": "Commercial",
+    "vintage_restriction": "15 Years",
+    "rate_notes": "Relationship pricing; deposit requirement",
+    "internal_notes": "[SYNTHETIC SEED] Texas and Oklahoma preferred.",
+    "introduced_via": "Referral",
+    "introduced_date": "2025-02-28",
+    "status": "active"
+  },
+  {
+    "company_name": "Pollux Asset Partners",
+    "primary_contact_name": "Reese Nolan",
+    "primary_contact_title": "Managing Director",
+    "primary_contact_email": "reese.nolan@pollux.example",
+    "primary_contact_phone": "+1 555 0116",
+    "asset_classes": [
+      "other",
+      "working_capital"
+    ],
+    "asset_subtypes": [],
+    "deal_size_min_usd": 1000000,
+    "deal_size_max_usd": 20000000,
+    "borrower_revenue_min_usd": 4000000,
+    "borrower_years_in_business_min": 2,
+    "required_documents": [
+      "audited_financials_2yr",
+      "interim_financials_yoy"
+    ],
+    "geographic_scope": [
+      "US",
+      "UK"
+    ],
+    "industry_filters": [
+      "technology",
+      "energy"
+    ],
+    "lender_type": "Private Equity",
+    "intl_domestic": "Both",
+    "usage_codes": null,
+    "operation_category": "Commercial",
+    "vintage_restriction": "None",
+    "rate_notes": "Structured deals; equity kicker possible",
+    "internal_notes": "[SYNTHETIC SEED] Opportunistic; will look at unusual collateral.",
+    "introduced_via": "Cold inbound",
+    "introduced_date": "2025-03-19",
+    "status": "active"
+  },
+  {
+    "company_name": "Regulus Fleet Leasing",
+    "primary_contact_name": "Skyler Grant",
+    "primary_contact_title": "VP, Fleet Programs",
+    "primary_contact_email": "skyler.grant@regulus.example",
+    "primary_contact_phone": "+1 555 0117",
+    "asset_classes": [
+      "vehicles",
+      "commercial_trucks"
+    ],
+    "asset_subtypes": [
+      "New"
+    ],
+    "deal_size_min_usd": 250000,
+    "deal_size_max_usd": 25000000,
+    "borrower_revenue_min_usd": 1000000,
+    "borrower_years_in_business_min": 2,
+    "required_documents": [
+      "financials_2yr",
+      "insurance_certs"
+    ],
+    "geographic_scope": [
+      "US"
+    ],
+    "industry_filters": [
+      "transportation",
+      "logistics",
+      "retail"
+    ],
+    "lender_type": "Non Bank",
+    "intl_domestic": "Domestic",
+    "usage_codes": "lease, rental",
+    "operation_category": "Commercial",
+    "vintage_restriction": "2018 or newer",
+    "rate_notes": "Fleet lease programs",
+    "internal_notes": "[SYNTHETIC SEED] Rental fleets only with a 3-year operating history.",
+    "introduced_via": "Conference",
+    "introduced_date": "2024-11-21",
+    "status": "active"
+  },
+  {
+    "company_name": "Aldebaran Credit Union",
+    "primary_contact_name": "Logan Price",
+    "primary_contact_title": "Director, Business Lending",
+    "primary_contact_email": "logan.price@aldebaran.example",
+    "primary_contact_phone": "+1 555 0118",
+    "asset_classes": [
+      "vehicles",
+      "equipment"
+    ],
+    "asset_subtypes": [
+      "New",
+      "Used"
+    ],
+    "deal_size_min_usd": 25000,
+    "deal_size_max_usd": 3000000,
+    "borrower_revenue_min_usd": 100000,
+    "borrower_years_in_business_min": 3,
+    "required_documents": [
+      "tax_returns_2yr"
+    ],
+    "geographic_scope": [
+      "US"
+    ],
+    "industry_filters": [
+      "retail",
+      "construction"
+    ],
+    "lender_type": "Credit Union",
+    "intl_domestic": "Domestic",
+    "usage_codes": "owner",
+    "operation_category": "Personal, Commercial",
+    "vintage_restriction": "10 Years",
+    "rate_notes": "Member pricing",
+    "internal_notes": "[SYNTHETIC SEED] Small-business members only; Northeast focus.",
+    "introduced_via": "Existing relationship",
+    "introduced_date": "2024-06-12",
+    "status": "active"
+  },
+  {
+    "company_name": "Procyon Construction Credit",
+    "primary_contact_name": "Charlie Reed",
+    "primary_contact_title": "SVP, Construction Lending",
+    "primary_contact_email": "charlie.reed@procyon.example",
+    "primary_contact_phone": "+1 555 0119",
+    "asset_classes": [
+      "construction_equipment",
+      "real_estate"
+    ],
+    "asset_subtypes": [
+      "New",
+      "Used"
+    ],
+    "deal_size_min_usd": 1000000,
+    "deal_size_max_usd": 45000000,
+    "borrower_revenue_min_usd": 4000000,
+    "borrower_years_in_business_min": 3,
+    "required_documents": [
+      "audited_financials_3yr",
+      "fixed_asset_list",
+      "tax_returns_3yr"
+    ],
+    "geographic_scope": [
+      "US"
+    ],
+    "industry_filters": [
+      "construction"
+    ],
+    "lender_type": "Bank",
+    "intl_domestic": "Domestic",
+    "usage_codes": "owner",
+    "operation_category": "Commercial",
+    "vintage_restriction": "15 Years",
+    "rate_notes": "Bank-grade; covenant-heavy",
+    "internal_notes": "[SYNTHETIC SEED] Contractors with bonding capacity; no spec builds.",
+    "introduced_via": "Referral",
+    "introduced_date": "2025-04-04",
+    "status": "active"
+  },
+  {
+    "company_name": "Achernar Global Equipment",
+    "primary_contact_name": "Dakota Shaw",
+    "primary_contact_title": "Head of Cross-Border Finance",
+    "primary_contact_email": "dakota.shaw@achernar.example",
+    "primary_contact_phone": "+1 555 0120",
+    "asset_classes": [
+      "equipment",
+      "medical_equipment"
+    ],
+    "asset_subtypes": [
+      "New"
+    ],
+    "deal_size_min_usd": 2000000,
+    "deal_size_max_usd": 80000000,
+    "borrower_revenue_min_usd": 8000000,
+    "borrower_years_in_business_min": 2,
+    "required_documents": [
+      "audited_financials_3yr",
+      "interim_financials_yoy"
+    ],
+    "geographic_scope": [
+      "UK",
+      "Germany",
+      "Japan",
+      "UAE"
+    ],
+    "industry_filters": [
+      "healthcare",
+      "manufacturing"
+    ],
+    "lender_type": "Non Bank",
+    "intl_domestic": "International",
+    "usage_codes": "owner, lease",
+    "operation_category": "Commercial",
+    "vintage_restriction": "2012 or newer",
+    "rate_notes": "Multi-currency facilities",
+    "internal_notes": "[SYNTHETIC SEED] International only; ECA-backed structures available.",
+    "introduced_via": "Industry conference 2025",
+    "introduced_date": "2025-10-01",
+    "status": "active"
+  },
+  {
+    "company_name": "Canopus Farm Credit",
+    "primary_contact_name": "Blair Hughes",
+    "primary_contact_title": "VP, Agricultural Lending",
+    "primary_contact_email": "blair.hughes@canopus.example",
+    "primary_contact_phone": "+1 555 0121",
+    "asset_classes": [
+      "agricultural_equipment",
+      "equipment"
+    ],
+    "asset_subtypes": [
+      "Used",
+      "Refurbished"
+    ],
+    "deal_size_min_usd": 50000,
+    "deal_size_max_usd": 8000000,
+    "borrower_revenue_min_usd": 200000,
+    "borrower_years_in_business_min": 3,
+    "required_documents": [
+      "tax_returns_3yr"
+    ],
+    "geographic_scope": [
+      "US"
+    ],
+    "industry_filters": [
+      "agriculture"
+    ],
+    "lender_type": "Credit Union",
+    "intl_domestic": "Domestic",
+    "usage_codes": "owner",
+    "operation_category": "Personal, Commercial",
+    "vintage_restriction": "20 Years",
+    "rate_notes": "Seasonal terms",
+    "internal_notes": "[SYNTHETIC SEED] Family farms; will finance refurbished tractors.",
+    "introduced_via": "Cold inbound",
+    "introduced_date": "2024-05-30",
+    "status": "active"
+  },
+  {
+    "company_name": "Fomalhaut Capital",
+    "primary_contact_name": "Peyton Lane",
+    "primary_contact_title": "Managing Partner",
+    "primary_contact_email": "peyton.lane@fomalhaut.example",
+    "primary_contact_phone": "+1 555 0122",
+    "asset_classes": [
+      "construction_equipment",
+      "other"
+    ],
+    "asset_subtypes": [
+      "Used"
+    ],
+    "deal_size_min_usd": 3000000,
+    "deal_size_max_usd": 60000000,
+    "borrower_revenue_min_usd": 12000000,
+    "borrower_years_in_business_min": 2,
+    "required_documents": [
+      "audited_financials_2yr",
+      "fixed_asset_list"
+    ],
+    "geographic_scope": [
+      "US",
+      "Canada",
+      "Mexico"
+    ],
+    "industry_filters": [
+      "construction",
+      "energy"
+    ],
+    "lender_type": "Private Equity",
+    "intl_domestic": "Both",
+    "usage_codes": "owner, rental",
+    "operation_category": "Commercial",
+    "vintage_restriction": "None",
+    "rate_notes": "Asset-based; higher cost of funds",
+    "internal_notes": "[SYNTHETIC SEED] Sale-leasebacks on rental yards.",
+    "introduced_via": "Referral",
+    "introduced_date": "2025-01-29",
+    "status": "active"
+  },
+  {
+    "company_name": "Hadar Medical Funding",
+    "primary_contact_name": "Cameron Day",
+    "primary_contact_title": "Director, Medical Equipment",
+    "primary_contact_email": "cameron.day@hadar.example",
+    "primary_contact_phone": "+1 555 0123",
+    "asset_classes": [
+      "medical_equipment"
+    ],
+    "asset_subtypes": [
+      "New",
+      "Refurbished"
+    ],
+    "deal_size_min_usd": 75000,
+    "deal_size_max_usd": 6000000,
+    "borrower_revenue_min_usd": 300000,
+    "borrower_years_in_business_min": 2,
+    "required_documents": [
+      "financials_2yr"
+    ],
+    "geographic_scope": [
+      "US"
+    ],
+    "industry_filters": [
+      "healthcare"
+    ],
+    "lender_type": "Non Bank",
+    "intl_domestic": "Domestic",
+    "usage_codes": "owner, lease",
+    "operation_category": "Commercial",
+    "vintage_restriction": "2015 or newer",
+    "rate_notes": "Quick approvals under $1M",
+    "internal_notes": "[SYNTHETIC SEED] Paused new originations this quarter.",
+    "introduced_via": "LinkedIn",
+    "introduced_date": "2024-09-03",
+    "status": "dormant"
+  },
+  {
+    "company_name": "Shaula Business Capital",
+    "primary_contact_name": "Kendall Moss",
+    "primary_contact_title": "VP, Working Capital",
+    "primary_contact_email": "kendall.moss@shaula.example",
+    "primary_contact_phone": "+1 555 0124",
+    "asset_classes": [
+      "working_capital",
+      "real_estate"
+    ],
+    "asset_subtypes": [],
+    "deal_size_min_usd": 100000,
+    "deal_size_max_usd": 15000000,
+    "borrower_revenue_min_usd": 400000,
+    "borrower_years_in_business_min": 2,
+    "required_documents": [
+      "interim_financials",
+      "tax_returns_2yr"
+    ],
+    "geographic_scope": [
+      "US",
+      "Canada"
+    ],
+    "industry_filters": [
+      "retail",
+      "hospitality",
+      "technology"
+    ],
+    "lender_type": "Non Bank",
+    "intl_domestic": "Both",
+    "usage_codes": null,
+    "operation_category": "Commercial",
+    "vintage_restriction": "None",
+    "rate_notes": "Revolving lines; borrowing-base driven",
+    "internal_notes": "[SYNTHETIC SEED] Asset-light borrowers OK with strong receivables.",
+    "introduced_via": "Conference",
+    "introduced_date": "2025-06-06",
+    "status": "active"
+  },
+  {
+    "company_name": "Denebola Truck & Equipment Finance",
+    "primary_contact_name": "Harper Quinn",
+    "primary_contact_title": "SVP, Transportation",
+    "primary_contact_email": "harper.quinn@denebola.example",
+    "primary_contact_phone": "+1 555 0125",
+    "asset_classes": [
+      "commercial_trucks",
+      "vehicles",
+      "equipment"
+    ],
+    "asset_subtypes": [
+      "New",
+      "Used"
+    ],
+    "deal_size_min_usd": 150000,
+    "deal_size_max_usd": 20000000,
+    "borrower_revenue_min_usd": 600000,
+    "borrower_years_in_business_min": 3,
+    "required_documents": [
+      "financials_3yr",
+      "insurance_certs"
+    ],
+    "geographic_scope": [
+      "US"
+    ],
+    "industry_filters": [
+      "transportation",
+      "construction"
+    ],
+    "lender_type": "Bank",
+    "intl_domestic": "Domestic",
+    "usage_codes": "owner, lease, rental",
+    "operation_category": "Personal, Commercial",
+    "vintage_restriction": "10 Years",
+    "rate_notes": "Relationship pricing",
+    "internal_notes": "[SYNTHETIC SEED] Dump trucks and tow trucks welcome.",
+    "introduced_via": "Existing relationship",
+    "introduced_date": "2025-08-11",
+    "status": "active"
+  }
+]

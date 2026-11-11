@@ -1,0 +1,11 @@
+# unrs-resolver ships a native binary used by the ESLint resolver. Its install
+# script is not run: eslint resolves fine without it, and an unresolved
+# placeholder here can abort `pnpm install` on some hosts.
+allowBuilds:
+  unrs-resolver: false
+onlyBuiltDependencies:
+  - '@clerk/shared'
+  - esbuild
+  - msw
+  - sharp
+  - tesseract.js

@@ -1,0 +1,8 @@
+{
+  "name": "California agricultural equipment $2M",
+  "query": "loan for a tractor around $2 million for a farm borrower in California",
+  "min_results": 1,
+  "must_not_include_ids": [],
+  "expected_lender_ids": [],
+  "note": "Asset = agricultural_equipment; lenders that only fund a different specific asset class (e.g. construction equipment or trucks) must not appear (asset hard-exclude). Zero-contradiction check enforces it."
+}

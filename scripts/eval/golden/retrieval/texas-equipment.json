@@ -1,0 +1,8 @@
+{
+  "name": "Texas equipment $5M",
+  "query": "equipment financing about $5 million for a Texas based logistics company",
+  "min_results": 1,
+  "must_not_include_ids": [],
+  "expected_lender_ids": [],
+  "note": "Domestic/nationwide lenders must still match a Texas (US) deal (synonym-aware geo). Zero-contradiction check is the hard guarantee."
+}

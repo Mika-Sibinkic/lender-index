@@ -1,0 +1,16 @@
+{
+  "name": "R$ is not $ — a BRL amount must never be read as USD",
+  "query": "um equipamento de R$8M no Brasil",
+  "min_results": 1,
+  "expect_extraction": {
+    "geographic_scope": [
+      "Brazil"
+    ],
+    "intl_required": true,
+    "deal_size_min_usd": null,
+    "deal_size_max_usd": null
+  },
+  "must_not_include_ids": [],
+  "expected_lender_ids": [],
+  "note": "Incident (fixed 2026-09-08): 'R$8M' was read as USD 8,000,000. A currency the parser cannot convert is UNSTATED, not eight million dollars — reading it as USD applied a size hard-exclude that removed exactly the lenders who could write an ~R$8M (≈USD 1.5M) deal, while keeping lenders whose floor is above it. Blank means unknown, never guessed into a filter. Size must stay null until the deal states a USD figure; the Brazil geography and the international requirement still stand."
+}
